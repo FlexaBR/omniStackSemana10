@@ -14,7 +14,7 @@ mongoose.set('useCreateIndex', true);
 setupWebsocket(server);
 
 mongoose.connect(
-    'mongodb+srv://flexaBR:j0c@2014@cluster0-tdoao.mongodb.net/week10?retryWrites=true&w=majority', {
+    'mongodb+srv://xxxx@cluster0-tdoao.mongodb.net/week10?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 })
